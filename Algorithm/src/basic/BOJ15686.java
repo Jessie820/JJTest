@@ -6,6 +6,7 @@ public class BOJ15686 {
 		// TODO Auto-generated method stub
 		
 		//This is Branch Tests
+		//dose this work?
 
 	}
 
