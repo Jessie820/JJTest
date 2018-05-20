@@ -43,11 +43,21 @@ public class Tmax1 {
 		HashMap<String, String> divisor = new HashMap<String, String>();		
 				
 		HashMap<String,String> divided = new HashMap<String, String>();
-		
+
 		
 		for(int i=0; i<format.length()-1; i++){
+
+			
 			if(format.charAt(i) == '%' && format.charAt(i+1) != '{'){
+				
+			    //구분자가 1개인지 1개이상인지(char기준으로) 1개 이상이면 첫글자와 앞글자로 구분해야함 그럼 갯수랑 구분자로 구분해서 담아야 하나...?
+				
+				
+				//구분자가 
 				divisor.put(String.valueOf(format.charAt(i)), String.valueOf(format.charAt(i+2)));
+				
+				
+				
 			}else if(format.charAt(i) == '%' && format.charAt(i+1) == '{'){
 				int j=0;
 				for(j=i; j<format.length(); j++){
@@ -68,7 +78,9 @@ public class Tmax1 {
 	for(int l=0; l<divisor.size(); l++){	
 		int k=0; 
 		for(k=0; k<data.length(); k++){
-			
+//			if(data.charAt(k) == divisor.get(l)){
+//				
+//			}
 			
 			
 		}
