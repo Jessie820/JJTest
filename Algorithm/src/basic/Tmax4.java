@@ -4,6 +4,8 @@ import java.util.HashMap;
 
 public class Tmax4 {
 	
+	//merge test22222
+	
 	static HashMap<String,String> rule = new HashMap<String, String>() //A: 필요한 포맷 - 포맷에 해당하는 정보
 			{{
 				put("{host}i", "virtualHost");
