@@ -7,6 +7,8 @@ import java.util.StringTokenizer;
 
 public class Tmax5 {
 
+	//Merge 테스트 테스트  
+	
 	//StringUtil 에 넘길 때는 rule도 같이 넘긴다
 	static HashMap<String,String> rule = new HashMap<String, String>() //A: 필요한 포맷 - 포맷에 해당하는 정보
 			{{
