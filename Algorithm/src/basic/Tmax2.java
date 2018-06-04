@@ -8,6 +8,8 @@ public class Tmax2 {
 	public static void main(String[] args) {
 		
 		//master 브랜치
+		
+		//브랜치 테스트
 		String data = "192.168.13.44:8080 192.168.13.43 - - [18/May/2018:13:41:51 +0900] \"POST /sysmaster/admin/requestDummy.action HTTP/1.1\" 200 2 4";
 		String data2="192.168.13.44:8080 192.168.13.43 - - [02/May/2018:15:26:42 +0900] \"GET /sysmaster/base/login.action HTTP/1.1\" 200 6309 114 \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36\"";
 
